@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
-
+#
 email_address = sys.argv[1]
 company = sys.argv[2]
 share_count = sys.argv[3]
