@@ -77,6 +77,7 @@ int main() {
     //Send correct varibales into the python program
     string command = "python testEmail.py " + email + " " + stock + " " + to_string(number_shares) + " " + to_string(total_cost) + " " + name;
     system(command.c_str());
+    //
 }
 
 
