@@ -16,10 +16,10 @@ int main() {
 
     cout << "Hello and welcome to our stocks portal, please follow the instructions to purchase shares successfully!" << endl;
     cout << endl;
-    cout << "Please enter your name: " << endl;
+    cout << "Please enter your first name: " << endl;
     cin >> name;
     cout << endl;
-    cout << "Currently, out of our portfolio, we have three stocks that we are reccommending to BUY." << endl;
+    cout << "Currently, out of our portfolio, we have three stocks that we are recommending to BUY." << endl;
     cout << "Option 1: Apple" << endl;
     cout << "Option 2: Tesla" << endl;
     cout << "Option 3: Facebook" << endl;
