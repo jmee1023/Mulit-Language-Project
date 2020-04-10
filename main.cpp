@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
     //fields
+    string name;
     string email;
     string stock;
     double stockPrice;
@@ -14,6 +15,9 @@ int main() {
     double totalCost;
 
     cout << "Hello and welcome to our stocks portal, please follow the instructions to purchase shares successfully!" << endl;
+    cout << endl;
+    cout << "Please enter your name: " << endl;
+    cin >> name;
     cout << endl;
     cout << "Currently, out of our portfolio, we have three stocks that we are reccommending to BUY." << endl;
     cout << "Option 1: Apple" << endl;
@@ -47,7 +51,7 @@ int main() {
         stockPrice = facebookPrice;
     }
 
-    cout << stock + " is a Great choice! We think that this is the perfect time to buy on regards to " + stock + "." << endl;
+    cout << stock + " is a Great choice! We think that this is the perfect time to buy in regards to " + stock + "." << endl;
     cout << endl;
     cout << "How many shares would you like to purchase? (1-1000)" << endl;
     cin >> numberShares;
@@ -62,6 +66,10 @@ int main() {
     cout << "Please enter your email address to which a confirmation email should be sent to: " << endl;
     cin >> email;
     cout << "A confirmation email has been sent to " + email + ", thank you for your business." << endl;
+
+    //make command line call to python program
+    string command = "python testEmail.py " + email + " " + stock + " " + to_string(numberShares) + " " + to_string(totalCost) + " " + name;
+    system(command.c_str());
 }
 
 
