@@ -1,6 +1,3 @@
 # JMM-DC-Final-project-MPL
 
-Our program is user friendly and does not require any installation's. At each step of the process you will see directions of what the
-program needs from you in order to continue. For this project we more focused on the functionality between the two languages
-rather than making the c++ code super complex. Be sure to enter your own email when asked for it, because it will send an email
-to whatever address you select and we do not want to spam someone. I hope that you enjoy our multiple language investment program. All code is original to this project
+This project demonstrates the use of two programming languages working in unison. This program prompts the user to make an investment from a list of reccomended stocks. It will then give you information on the stock, such as the price it is trading at, and prompt you to selecta quantity. Once this is done you are given the option to keep investing or give your confirmation email and exit out of the program. Up until this point all of the program was written in c++. Once the user is done investing, this prompts the function link to the python file which sends the python program the users selections. The pythong program then uses this information to write up a cofirmatiom emial to the user . The email notifies them of the stock they purchased, the price of the stock, quantity of shares prchased, and subtotal of the whole investment.
